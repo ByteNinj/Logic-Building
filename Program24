@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{  int  icnt=0;
+    for(icnt=2;icnt<=20;icnt++)
+    {
+        printf("%d\n",icnt);
+        icnt++;
+    }
+
+    return 0;
+}
